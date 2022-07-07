@@ -102,7 +102,7 @@ class TrophiesWindow(popup.PopupWindow):
             flatness=1.0,
             shadow=0.0,
             text=ba.Lstr(resource='coopSelectWindow.totalText').evaluate() +
-            ' ' + eq_text.replace('${NUMBER}', str(total_pts)),
+            ' ' + eq_text.replace('${NUMBER}', str(self.total_pts)),
             size=(0, 0),
             h_align='right',
             v_align='center')
